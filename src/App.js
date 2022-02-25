@@ -17,7 +17,7 @@ function App() {
 
       <button onClick={() =>
         setTheme((prevTheme) => {
-        return prevTheme === 'red' ? 'blue' : 'green';
+        return prevTheme === 'green' ? 'blue' : 'green';
       })}>
         Toggle Theme
       </button>
