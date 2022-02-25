@@ -5,7 +5,7 @@ import CounterHooks from './CounterHooks'
 export const ThemeContext = React.createContext();
 function App() {
 
-  const [theme, setTheme] = useState('red');
+  const [theme, setTheme] = useState('green');
 
   console.log('Render App');
 
@@ -17,7 +17,7 @@ function App() {
 
       <button onClick={() =>
         setTheme((prevTheme) => {
-        return prevTheme === 'red' ? 'blue' : 'red';
+        return prevTheme === 'red' ? 'blue' : 'green';
       })}>
         Toggle Theme
       </button>
